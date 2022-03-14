@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Soccer Treasure Hunt </title>
+    <link rel="stylesheet"href="treasurehunt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Oswald:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body class="treasure">
+    <h1> Soccer Treasure Hunt </h1>
+      <h2>Good Luck Scoring!</h2>
+    <ul id="no">
+      <li id="one" onclick="treasure('1')"> Click the boxes to reveal what's on the map.</li>
+      <li id="two"> If you click on the red card, you lose. </li>
+      <li id="three"> If you click on the soccer ball, you win! </li>
+    </ul>
+<div id="treasure-board">
+    <table id="outline">
+      <tr>
+        <td id="1" onclick="treasure ('1')">⚽</td>
+        <td id="2" onclick="treasure ('2')">⚽</td>
+        <td id="3" onclick="treasure('3')">⚽</td>
+      </tr>
+      <tr>
+        <td id="4" onclick="treasure ('4')">⚽</td>
+        <td id="5" onclick="treasure ('5')">⚽</td>
+        <td id="6" onclick="treasure('6')">⚽</td>
+      </tr>
+      <tr>
+        <td id="7" onclick="treasure ('7')">⚽</td>
+        <td id="8" onclick="treasure ('8')">⚽</td>
+        <td id="9" onclick="treasure('9')">⚽</td>
+      </tr>
+    </table>
+  </div>
+  <button type="restart" name="restart">Restart Game</button>
+    <footer>&copy by Vicente Saldana, Elijah Barreto, Katherine Ly
+    <a href="https://www.crazygames.com/t/soccer" target="_blank">Other Soccer Games</a>
+    </footer>
+    <script type="text/javascript" src= "treasurehunt.js">
+    </script>
+  </body>
+</html>
